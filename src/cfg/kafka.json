@@ -1,0 +1,7 @@
+{
+    "bootstrap_servers" : "kafka-web-monitor-viliamiktutone-1810.aivencloud.com:18783",
+    "security_protocol" : "SSL",
+    "ssl_cafile": "cfg/ca.pem",
+    "ssl_certfile": "cfg/service.cert",
+    "ssl_keyfile":"cfg/service.key"
+}

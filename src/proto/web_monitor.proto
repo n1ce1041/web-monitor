@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+message WebMonitorResult {
+  string url = 1;
+  bool succeeded = 2;
+  int32 response_code = 3;
+  float request_time_seconds = 4;
+  bool regex_check = 5;
+  optional Error error = 6;
+}
+
+
+message Error {
+  string error_message = 8;
+}
