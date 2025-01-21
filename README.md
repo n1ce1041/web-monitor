@@ -1,6 +1,8 @@
 ## About
 
-Web monitor asynchronously checks websites periodically and sends the status of given websites via protobuf serialized messages to an Aiven Kafka Instance.
+I did this take-home project for Aiven and toiled over this, only for them to say it was great and then ghost me for no real reason - they suddenly did a 180 and pulled out and said their priorities changed. So here it is.
+
+Web monitor asynchronously checks websites periodically and sends the status of given websites via protobuf serialized messages to an Aiven Kafka Instance. 
 
 ## Getting Started
 
